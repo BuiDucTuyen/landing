@@ -218,7 +218,9 @@ table {
 
 p, li, span {
   margin-bottom: 0; }
-
+.bll {
+  margin-right: 10px;
+}
 /* reset css end */
 /* global css start */
 .nice-select {
