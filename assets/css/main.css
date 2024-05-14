@@ -3615,9 +3615,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     left: 0; }
   .hero__shape .shape--3 {
     bottom: -100px;
-    right: 0; }
+    right: 0px; }
 .hero__coin .coin {
-  position: absolute; }
+  position: absolute; 
+}
   .hero__coin .coin--1 {
     left: 1%;
     bottom: 15.5%; }
@@ -3644,9 +3645,11 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
       .hero__coin .coin--2 {
         bottom: 4.7%;
         left: 36%; } }
+
   .hero__coin .coin--3 {
     right: 43%;
-    bottom: 16%; }
+    bottom: 16%;
+   }
     @media only screen and (min-width: 1200px) and (max-width: 1500px) {
       .hero__coin .coin--3 {
         right: 41.5%;
@@ -3839,7 +3842,168 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
         height: 10px;
         background-color: var(--color-white);
         top: -18px; }
-.hero__blockchain-icon .icon span {
+
+
+
+@media (max-width: 2560px) {
+  .t__4 .texx-logo__ai {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .texx-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .t__4 .texx-logo__ai {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .texx-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .t__4 .texx-logo__ai {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .texx-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .t__1 {
+    left: -100px;
+  }
+  .t__2 {}
+  .t__3 {
+  
+  }
+  .t__4 {
+    left: -50px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* .t__4 .texx-logo__ai {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .texx-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  } */
+  .t__styles {
+    margin-top: 70px;
+  }
+ 
+  .t__1 {
+    position: absolute;
+    left: 150px;
+    top: 60px;
+  }
+  .t__2 {
+
+  }
+  .t__3 {
+  right: -100px;
+  }
+  .t__4 {
+    left: -50px;
+  }
+}
+
+@media (max-width: 499px)  {
+  .t__4 .texx-logo__ai {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .texx-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .t__styles {
+    margin-top: 90px;
+  }
+ 
+  .t__1 {
+    left: -10px;
+    top: 0px;
+  }
+  .t__2 {}
+  .t__3 {
+  left: 160px;
+  }
+  .t__4 {
+    left: -20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px)  {
+  .texx-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .t__4 .texx-logo__ai {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .t__styles {
+    margin-top: 160px;
+  }
+  .t__3 {
+    top: 40px;
+    }
+    .t__4 {
+       left: -20px; 
+    }
+}
+
+
+
+/* POW & POA */
+.t__1 {
+  position: absolute;
+  top: -60px;
+  left: 10px;
+}
+/* Real World Assets */
+.t__2 {
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
+/* DePIN */
+.t__3 {
+  position: absolute;
+  top: -190px;
+  right: -230px;
+}
+/* AI */
+.t__4 {
+  position: absolute;
+  top: 180px;
+  right: -90px;
+}
+ 
+
+        .hero__blockchain-icon .icon span {
   display: inline-block;
   -webkit-transform: translate(32px, -10px);
   -ms-transform: translate(32px, -10px);
@@ -3897,7 +4061,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   
      }
 .hero__blockchain-icon .icon--3 {
-  top: -188px;
+  top: 0px;
   right: -0%;
    }
     @media only screen and (min-width: 1200px) and (max-width: 1500px) {
