@@ -7980,7 +7980,7 @@ justify-content: center;
 }
 .chart__img {
   height: 750px;
-  /* background-image: var(--bg-chart); */
+  background-image: var(--bg-chart);
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
@@ -7990,6 +7990,7 @@ justify-content: center;
 
 @media screen and (max-with: 400px) {
   .chart___img {
+    max-width: 350px;
     width: 100%;
     background-image: var(--bg-chart);
     background-repeat: no-repeat;
