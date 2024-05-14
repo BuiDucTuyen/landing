@@ -73,6 +73,7 @@
   --bg-lan: url('/assets/img/icon/lang_bg 2.png');
     --color-dark5: #03060E;
   --bg-chart: url('/assets/img/bg/Chart (3).png');
+  --bg-sang: url('/assets/img/bg/Property 1=light.png');
 }
 
 /* reset css start */
@@ -106,7 +107,8 @@ html {
         --bg-our: #0a0d12;
         --bg-lan: url('/assets/img/bg/lang_bg.svg');
         --color-dark5: #B3B3C0;
-        --bg-chart: url('/assets/img/bg/Chart (3).png');
+        --bg-chart: url('/assets/img/bg/Chart (2).png');
+        --bg-sang: url('/assets/img/bg/Property 1=Variant2.png');
         }
       
 
@@ -232,7 +234,7 @@ p, li, span {
   position: relative; 
 }
 .slider round {
-  background-color: #0094b0;
+  background-color: #c43b3b;
 }
 .bg_img {
   background-image: var(--bg-home);
@@ -7766,10 +7768,6 @@ justify-content: center;
   align-items: center;
   /* background-image: url('/assets/img/bg/Property 1=Variant2.png'); */
   
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
 }
 .theme-switch {
   display: inline-block;
@@ -7784,7 +7782,6 @@ justify-content: center;
 
 .slider {
   background-color: #ccc;
-  /* bottom: 0; */
   cursor: pointer;
   left: 0;
   position: absolute;
@@ -7792,7 +7789,13 @@ justify-content: center;
   top: 0;
   transition: .4s;
 }
-
+.chart__img {
+  height: 750px;
+  background-image: var(--bg-chart);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .slider:before {
   /* background-color: #fff; */
   bottom: 4px;
@@ -7805,7 +7808,7 @@ justify-content: center;
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+ background-color: white;
 }
 
 input:checked + .slider:before {
