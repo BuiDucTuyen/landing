@@ -172,12 +172,12 @@ select {
   background-color: transparent;
   border: 0; }
 .van {
-  background-image: var(--bg-van);
+  /* background-image: var(--bg-van);
   width: 182px;
   height: 162px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain; */
 
 }
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], form select, textarea {
@@ -6901,20 +6901,26 @@ border-radius: 30px;
         right: 13%;
         bottom: 20%;
         max-width: 150px; } }
-.solution__icon {
-  position: absolute;
-  top: 53%;
-  left: 56%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
-  @media (max-width: 991px) {
-    .solution__icon {
-      left: 52%; } }
-  @media (max-width: 767px) {
-    .solution__icon {
-      left: 56%;
-      max-width: 102px; } }
+        .solution__icon {
+          position: absolute;
+          background-image: var(--bg-van);
+           background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 182px;
+          height: 162px;
+          top: 53%;
+          left: 56%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+          @media (max-width: 991px) {
+            .solution__icon {
+              left: 52%; } }
+          @media (max-width: 767px) {
+            .solution__icon {
+              left: 56%;
+              max-width: 102px; } }
 
 /*----------------------------------------*/
 /*  17. pricing
@@ -7974,11 +7980,23 @@ justify-content: center;
 }
 .chart__img {
   height: 750px;
-  background-image: var(--bg-chart);
+  /* background-image: var(--bg-chart); */
+  display: flex;
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+}
+
+@media screen and (max-with: 400px) {
+  .chart___img {
+    width: 100%;
+    background-image: var(--bg-chart);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    object-fit:cover;
+  }
 }
 .slider:before {
   background-image: var(--img-dark);
